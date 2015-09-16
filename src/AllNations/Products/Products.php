@@ -4,6 +4,8 @@ namespace WSW\AllNations\Products;
 
 use WSW\AllNations\Credentials;
 use WSW\AllNations\Requests\Request;
+use WSW\AllNations\AllNationsException;
+use DateTime;
 
 class Products
 {
@@ -41,8 +43,24 @@ class Products
         $this->request = $request ?: new Request();
     }
 
+    /**
+     * @param string $date
+     * @return $this
+     */
     public function setDate($date= '')
     {
+
+        $dateToday = new DateTime();
+        $dateSet   = new DateTime();
+
+        if (!is_null($date)) {
+            $dateSet = DateTime::createFromFormat('d/m/Y', $date);
+        }
+
+        if ($dateSet > $dateToday) {
+            throw new AllNationsException('The date can not be greater than the current date', 1);
+        }
+
         $this->params['Data'] = $date;
 
         return $this;
