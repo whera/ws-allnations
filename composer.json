@@ -19,9 +19,12 @@
         "guzzlehttp/guzzle": "^6.1",
         "cakephp/utility": "^3.0"
     },
+    "require-dev": {
+        "phpunit/phpunit": "*"
+    },
     "autoload": {
         "psr-4": {
-            "WSW\\AllNations\\": ["src/AllNations"]
+            "WSW\\AllNations\\": ["src/AllNations", "test/AllNations"]
         }
     }
 }
