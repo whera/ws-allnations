@@ -17,7 +17,7 @@ abstract class Environment
      */
     public static function isValid($host)
     {
-        return is_array($host, [Production::WS_HOST]);
+        return in_array($host, [Production::WS_HOST]);
     }
 
 
