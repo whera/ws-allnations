@@ -2,4 +2,4 @@ vendor/
 .idea/
 index.php
 composer.lock
-
+coverage/
