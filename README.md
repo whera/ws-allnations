@@ -1,6 +1,11 @@
 # API WS All Nations
 
 [![Build Status](https://travis-ci.org/whera/ws-allnations.svg?branch=1.0.0alpha3)](https://travis-ci.org/whera/ws-allnations)
+[![Latest Stable Version](https://poser.pugx.org/wsw/allnations/v/stable)](https://packagist.org/packages/wsw/allnations) 
+[![Total Downloads](https://poser.pugx.org/wsw/allnations/downloads)](https://packagist.org/packages/wsw/allnations) 
+[![Latest Unstable Version](https://poser.pugx.org/wsw/allnations/v/unstable)](https://packagist.org/packages/wsw/allnations) 
+[![License](https://poser.pugx.org/wsw/allnations/license)](https://packagist.org/packages/wsw/allnations)
+
 
 API de integração com o Web Service All Nations para PHP 5.5+, deve ser utilizado um Autoloader compatível com a PSR-4.
 
