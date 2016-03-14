@@ -6,7 +6,7 @@
 [![Latest Unstable Version](https://poser.pugx.org/wsw/allnations/v/unstable)](https://packagist.org/packages/wsw/allnations) 
 [![License](https://poser.pugx.org/wsw/allnations/license)](https://packagist.org/packages/wsw/allnations)
 
-
+=======
 API de integração com o Web Service All Nations para PHP 5.5+, deve ser utilizado um Autoloader compatível com a PSR-4.
 
 ## Instalação
