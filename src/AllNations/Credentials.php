@@ -7,7 +7,6 @@ use WSW\AllNations\Environments\Production;
 
 class Credentials
 {
-
     /**
      * @var
      */
@@ -52,5 +51,4 @@ class Credentials
             http_build_query($params)
         );
     }
-
 }

@@ -8,7 +8,6 @@ use WSW\AllNations\AllNationsException;
 
 abstract class Serializer
 {
-
     /**
      * @param string $string
      * @return Array
@@ -29,5 +28,4 @@ abstract class Serializer
             throw new AllNationsException($e->getMessage());
         }
     }
-
 }

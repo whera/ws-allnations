@@ -2,7 +2,6 @@
 
 namespace WSW\AllNations\Environments;
 
-
 abstract class Environment
 {
 
@@ -33,5 +32,4 @@ abstract class Environment
             $resource
         );
     }
-
 }

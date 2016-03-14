@@ -9,7 +9,6 @@ use DateTime;
 
 class Products
 {
-
     const PRODUCT_LIST  = '/wsintestoqueclientesV2/ServicoReservasPedidosExt.asmx/RetornarListaProdutos';
     const PRODUCT_STOCK = '/wsintestoqueclientesV2/ServicoReservasPedidosExt.asmx/RetornarListaProdutosEstoque';
 
@@ -47,9 +46,8 @@ class Products
      * @param string $date
      * @return $this
      */
-    public function setDate($date= '')
+    public function setDate($date = null)
     {
-
         $dateToday = new DateTime();
         $dateSet   = new DateTime();
 
@@ -76,7 +74,4 @@ class Products
         return $response;
 
     }
-
-
-
 }

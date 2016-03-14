@@ -4,7 +4,6 @@ namespace WSW\AllNations\Environments;
 
 use WSW\AllNations\Environments\Environment;
 
-
 class Production extends Environment
 {
 
@@ -18,5 +17,4 @@ class Production extends Environment
     {
         return static::WS_HOST;
     }
-
 }
